@@ -12,7 +12,7 @@ title = soup.find_all('div', {'class': 'skill-item'})
 for skill in title:
     print(skill.getText())
 
-# Print all "skills" (nested inside the above class)
+# Print all "skills" (nested inside the above class)c
 for skillItem in title:
     skill = skillItem.find("h5")
     print(skill.getText())
