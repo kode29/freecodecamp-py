@@ -2,6 +2,22 @@
 # Created 20231220
 # Author: kyperkins@gmail.com
 
+"""
+I feel like I need to explain the difference, between the video tutorial and the
+items below. While Tomi does a good job explaining the basics of a Python
+program, the UX-developer in me said "That's a lot of repeating". I mean, 66
+lines and 90% of it is print() statements.
+
+I thought I could do better. I found my old Coursera Python script at
+http://www.codeskulptor.org/#user10_nr9Aq94XQBGpn0s.py back in 2013, but even
+that had a lot of fluff. Here's basically 66 lines (minus this comment),
+covering any scenario, score tracking, easy input of options, user
+personalization, and a docblock.
+
+While I am in no way a Python expert, this seems to do a more effecient job
+than 42 lines of print()
+"""
+
 import random
 
 total_games = user_score = computer_score = 0
